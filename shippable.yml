@@ -1,12 +1,6 @@
 # Language setting http://docs.shippable.com/ci/languages/node/
 language: none
 
-# use this to control what branches get built.
-# http://docs.shippable.com/ci/advancedOptions/branches/
-branches:
-  only:
-    - master
-
 # using pre-defined build variables
 # full list http://docs.shippable.com/ci/advancedOptions/environmentVariables/
 
