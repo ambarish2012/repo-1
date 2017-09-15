@@ -9,7 +9,7 @@ build:
     - echo "DONE"
   on_success: >-
     curl --request POST
-    --url "https://api.shippable.com/projects/42046/newBuild?branch=$BRANCH"
+    --url "https://api.shippable.com/projects/59baf429b5bb220700406ecb/newBuild?branch=$BRANCH"
     --header "authorization: apiToken ef45a20e-dc7a-46a1-b631-4f74dc5b7f53"
     --header "cache-control: no-cache"
       
